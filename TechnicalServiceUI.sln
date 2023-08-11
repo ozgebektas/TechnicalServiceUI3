@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalServiceUI", "TechnicalServiceUI\TechnicalServiceUI.csproj", "{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalServiceEntity", "TechnicalServiceEntity\TechnicalServiceEntity.csproj", "{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalServiceDataAccess", "TechnicalServiceDataAccess\TechnicalServiceDataAccess.csproj", "{B468CB60-B10E-46B3-9919-D95718944E6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalServiceBusiness", "TechnicalServiceBusiness\TechnicalServiceBusiness.csproj", "{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiConsume", "ApiConsume", "{4370C587-8BFE-4453-8AC9-1791F980446A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{E01EF611-BED3-41C7-ACCE-889554B68F8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechnicalServiceUILayer", "Frontend\TechnicalServiceUILayer\TechnicalServiceUILayer.csproj", "{4B39B957-3BD2-46A3-9D63-12F15DF8469E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B468CB60-B10E-46B3-9919-D95718944E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B468CB60-B10E-46B3-9919-D95718944E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B468CB60-B10E-46B3-9919-D95718944E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B468CB60-B10E-46B3-9919-D95718944E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B39B957-3BD2-46A3-9D63-12F15DF8469E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B39B957-3BD2-46A3-9D63-12F15DF8469E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B39B957-3BD2-46A3-9D63-12F15DF8469E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B39B957-3BD2-46A3-9D63-12F15DF8469E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CA4EFE3B-D6C6-4B89-9CF0-89E7CAFE4A96} = {4370C587-8BFE-4453-8AC9-1791F980446A}
+		{0B72AF39-2EC7-4251-A7B7-A42E26FC66ED} = {4370C587-8BFE-4453-8AC9-1791F980446A}
+		{B468CB60-B10E-46B3-9919-D95718944E6C} = {4370C587-8BFE-4453-8AC9-1791F980446A}
+		{B7BE1A74-0BF0-4DAE-84BC-517A02EF4876} = {4370C587-8BFE-4453-8AC9-1791F980446A}
+		{4B39B957-3BD2-46A3-9D63-12F15DF8469E} = {E01EF611-BED3-41C7-ACCE-889554B68F8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34817903-DA85-4A6E-98C1-2C0A29D731E0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/ilaydaozken
+		SccProjectUniqueName0 = TechnicalServiceUI\\TechnicalServiceUI.csproj
+		SccProjectTopLevelParentUniqueName0 = TechnicalServiceUI.sln
+		SccProjectName0 = TechnicalServiceUI
+		SccAuxPath0 = https://dev.azure.com/ilaydaozken
+		SccLocalPath0 = TechnicalServiceUI
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
