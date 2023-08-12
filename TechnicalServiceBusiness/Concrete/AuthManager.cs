@@ -32,8 +32,6 @@ namespace TechnicalServiceBusiness.Concrete
                 Email = userForRegisterDto.Email,
                 FirstName = userForRegisterDto.FirstName,
                 LastName = userForRegisterDto.LastName,
-                PasswordHash = passwordHash,
-                PasswordSalt = passwordSalt,
                 Status = true
             };
             _userService.Add(user);
@@ -48,10 +46,10 @@ namespace TechnicalServiceBusiness.Concrete
                 return new ErrorDataResult<AppUser>("kullanıcı bulunamadı");
             }
 
-            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
-            {
-                return new ErrorDataResult<AppUser>("Parola hatası");
-            }
+            //if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordSalt))
+            //{
+            //    return new ErrorDataResult<AppUser>("Parola hatası");
+            //}
 
             return new SuccessDataResult<AppUser>(userToCheck, "başarılı giriş");
         }

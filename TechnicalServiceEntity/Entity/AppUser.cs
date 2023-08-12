@@ -10,10 +10,8 @@ namespace TechnicalServiceEntity.Entity
 {
     public class AppUser:IdentityUser<int>,IEntity
     {
-        public string City { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public byte[] PasswordSalt { get; set; }
         public bool Status { get; set; }
     }
 }

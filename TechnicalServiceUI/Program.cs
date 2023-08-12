@@ -28,6 +28,9 @@ builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 builder.Services.AddDbContext<EfContext>();
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<EfContext>().AddDefaultTokenProviders();
 builder.Services.AddScoped<IAuthService,AuthManager>();
+builder.Services.AddScoped<IUserService,UserManager>();
+builder.Services.AddScoped<IUserDal,EfUserDal>();
+builder.Services.AddScoped<ITokenHelper,JwtHelper>();
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOption>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
